@@ -17,6 +17,5 @@ class MainActivity : AppCompatActivity() {
         APP = this
         val navHostFragment = supportFragmentManager.findFragmentById(R.id.nav_fragment) as NavHostFragment
         navController = navHostFragment.navController
-                //navController = Navigation.findNavController(this, R.id.nav_fragment)
     }
 }
